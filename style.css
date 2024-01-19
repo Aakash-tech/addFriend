@@ -1,0 +1,43 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    
+}
+#card{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: center;
+}
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#card h1{
+    font-size: 25px;
+    margin: 10px 0;
+    
+}
+#card h5{
+    font-size: 20px;
+    color: red;
+    margin: 20px;
+
+}
+#card button{
+    padding: 10px 20px;
+    background-color: cadetblue;
+    border-radius: 50px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+  
+}
